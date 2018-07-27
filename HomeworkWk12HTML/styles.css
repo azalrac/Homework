@@ -1,0 +1,120 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background: #f1f1f1;
+}
+
+h1 {
+  font-size: 80px;
+}
+head {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.boxx {
+  border: solid green;
+
+}
+
+.pic1 {
+  padding: 20px;
+
+}
+
+
+.col-md-6 {
+  margin-left: -10px;
+  padding: 10px;
+}
+
+
+.col-md-3 {
+  margin-left: -10px;
+  padding: 10px;
+}
+
+.container img {
+  display: inline;
+  margin: 20px 20px;
+}
+
+/* Giving our navbar some padding and a background color */
+.navbar {
+  padding: 5px;
+  background: #5191fd;
+}
+
+
+.navbar-brand {
+  padding: 50px;
+  font-size: 50px;
+}
+
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 3px;
+}
+
+/* Getting rid of the default link styles here */
+/* .navbar li a {
+  color: #000;
+  text-decoration: none;
+} */
+
+/* Styling the header, giving it a height, a background color, and some top padding */
+.header {
+  height: 200px;
+  padding-top: 20px;
+  background: #cdcdcd;
+}
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+  padding: 60px;
+  margin: 0;
+  color: #000;
+  text-align: center;
+}
+
+/* Giving the .post element margin on 3 sides */
+.post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+/* Table formatting for Data page */
+#maintable {  
+  width: 100%;
+  border-collapse: collapse; 
+  border-spacing: 40px;
+  padding: 50px;
+  background: #F3F3F3; /* Light grey background */
+}
+#maintable td, th { border: 1px solid #CCC; 
+text-align:  center;}  
+
+
+#maintable th title {  
+  background: #F3F3F3; /* Light grey background */
+  font-weight: bold; /* Make sure they're bold */
+}
+
+#maintable td {  
+  background: #FAFAFA; /* Lighter grey background */
+  text-align: center; /* Center our text */
+}

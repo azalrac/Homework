@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Cloudiness </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href = "styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      
+      </head>
+<body>
+
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                    <a class="navbar-brand" href="index.html">Lattitude</a>
+                  </div>
+            
+            
+                    <ul class="nav navbar-nav navbar-right">
+                     
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="maxtemp.html">Max Temperature</a></li>
+                          <li><a href="humidity.html">Humidity</a></li>
+                          <li><a href="cloudiness.html">Cloudiness</a></li>
+                          <li><a href="windspeed.html">Wind Speed</a></li>
+            
+                        </ul>
+                      </li>
+                      <li><a href="comparison.html">Comparison</a></li>
+                      <li><a href="data.html">Data</a></li>
+                    </ul>
+                  </div>
+        </nav>
+    <!-- Container 1 -->
+    <div class="container">
+            <!--<div class="row">-->
+          <div class="row">
+            <div class="col-lg-8 col-sm-12">
+              <h1>Cloudiness</h1>
+              <hr>
+                <img src="resources/Lat_vs_Cloud.png" alt="maxtemp" height="400" width="600" align="center">
+                <p>There is not a strong coorleation between latitude and cloudiness. 
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                    <h2>Visualizations</h2>
+                    <hr>
+                        <div class= "col-md-6 col-sm-3">
+                                <a href="maxtemp.html">
+                            <img id = "pic1" src="resources/Lat_vs_TempF.png" alt="maxtemp" height="150" width="150"> </a>
+                        </div> 
+                        <div class= "col-md-6 col-sm-3">
+                                <a href="humidity.html">
+                            <img id ="pic2" src="resources/Lat_vs_Humidity.png" alt="humidity" height="150" width="150"> </a>
+                        </div> 
+                        <div class= "col-md-6 col-sm-3">
+                                <a href="cloudiness.html">
+                            <img class = "boxx" src="resources/Lat_vs_Cloud.png" alt="cloudiness" height="150" width="150"> </a>
+                        </div> 
+                        <div class= "col-md-6 col-sm-3">
+                                <a href="windspeed.html">
+                            <img id = "pic4" src="resources/Lat_vs_Wind.png" alt="windspeed" height="150" width="150"> </a>
+                        </div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
