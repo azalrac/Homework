@@ -8,8 +8,8 @@ function renderTable(tableData){
     table = d3.select("#table-area");
     var tbody = table.select("tbody");
     d3.select('tbody').html('')
-    console.log(tableData);
-    console.log(tableData.length);
+    // console.log(tableData);
+    // console.log(tableData.length);
     for(var i=0; i<tableData.length; i++){
         tr = tbody.append("tr");
         tr.append("td").text(tableData[i].datetime);
